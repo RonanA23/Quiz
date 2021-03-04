@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cors())
 
 
-mongoose.connect('mongodb+srv://admin:0gZP2q9ASwrCIvSx@cluster0.pxvfc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://admin:@cluster0.pxvfc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
     useCreateIndex:true,
     useFindAndModify:true,
     useNewUrlParser:true,
